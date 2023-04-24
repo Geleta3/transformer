@@ -3,6 +3,7 @@ from .layers import EncoderLayer, DecoderLayer
 import torch.nn as nn
 import torch
 
+
 class Encoder(nn.Module):
     def __init__(self, d_model,
                  head,
